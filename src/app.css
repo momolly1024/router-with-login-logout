@@ -1,0 +1,27 @@
+body {
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(3, 45, 182);
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(242, 112, 112);
+}
+
+button {
+    margin: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: rgb(185, 185, 226);
+}
+
+button:hover {
+    background-color: rgb(242, 112, 112);
+}
