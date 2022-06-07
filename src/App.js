@@ -9,6 +9,7 @@ import {
     useNavigate,
 } from 'react-router-dom'
 import './app.css'
+
 const Account = () => {
     return <p> (Protected) Account page</p>
 }
