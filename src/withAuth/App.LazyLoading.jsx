@@ -34,16 +34,3 @@ const NoMatch = () => {
 };
 
 export default App;
-
-// import loadable from '@loadable/component';
-
-// import * as ROUTES from '@/constants/routes';
-// import { Page } from '@/components/Layout/Page';
-
-// import { Navigation } from './Navigation';
-
-// const ReviewKpis = loadable(() => import('./ReviewKpis'), {
-//   resolveComponent: (components) => {
-//     return components.ReviewKpis;
-//   },
-// });

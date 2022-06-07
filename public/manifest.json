@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Router with Auth",
+  "name": "React router with Auth",
   "icons": [
     {
       "src": "favicon.ico",
