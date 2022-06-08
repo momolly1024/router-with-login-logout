@@ -1,8 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter, useNavigate, useLocation } from 'react-router-dom'
-import { QueryParamProvider } from 'use-query-params'
-
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {
+  BrowserRouter,
+  useNavigate,
+  useLocation,
+} from 'react-router-dom';
+import { QueryParamProvider } from 'use-query-params';
+import App from './App.LazyLoading.jsx';
 // import App from './App.jsx';
 // import App from './App.Redirect.jsx';
 import App from './App.Authentication.jsx'
@@ -10,6 +14,7 @@ import App from './App.Authentication.jsx'
 // import App from './App.Descendant.jsx';
 // import App from './App.QueryParams.jsx';
 // import App from './App.LazyLoading.jsx';
+
 
 // use-query-params adapeter for React Router 6
 const RouteAdapter = ({ children }) => {
