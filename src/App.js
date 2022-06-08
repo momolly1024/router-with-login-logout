@@ -91,12 +91,12 @@ function App() {
     const [user, setUser] = useState({ loggedIn: false })
     return (
         <>
-            {/* <UserContext.Provider value={{ user, setUser }}>
+            <UserContext.Provider value={{ user, setUser }}>
                 <LogInButtons />
                 <PageLinks />
                 <Views />
-            </UserContext.Provider> */}
-            <RouterWithAuth />
+            </UserContext.Provider>
+            {/* <RouterWithAuth /> */}
         </>
     )
 }
