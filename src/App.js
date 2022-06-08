@@ -9,6 +9,7 @@ import {
     useNavigate,
 } from 'react-router-dom'
 import './app.css'
+import RouterWithAuth from './withAuth/App.Authentication'
 
 const Account = () => {
     return <p> (Protected) Account page</p>
@@ -89,11 +90,14 @@ export const UserContext = createContext()
 function App() {
     const [user, setUser] = useState({ loggedIn: false })
     return (
-        <UserContext.Provider value={{ user, setUser }}>
-            <LogInButtons />
-            <PageLinks />
-            <Views />
-        </UserContext.Provider>
+        <>
+            {/* <UserContext.Provider value={{ user, setUser }}>
+                <LogInButtons />
+                <PageLinks />
+                <Views />
+            </UserContext.Provider> */}
+            <RouterWithAuth />
+        </>
     )
 }
 
